@@ -1,0 +1,54 @@
+.cabecalho__nav_list {
+  display: grid;
+  grid-template-columns: 1fr auto 50% auto auto auto; /*espaçamento entre as colunas*/
+  gap: 40px; /*espaçamento entre os itens*/
+  list-style-type: none; /*retira a bolinha da lista*/
+  align-items: center; /*alinha no centro os itens, descolando do topo*/
+  width: 100%; /*ocupa 100% do espaço */
+}
+
+.cabecalho {
+  padding: 32px 12.5%;
+  width: 100%;
+}
+
+.cabecalho__logo {
+  width: 79.61px;
+  height: 48px;
+}
+
+.cabecalho__nav_list_link {
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--cor-links);
+  font-family: var(--fonte-texto);
+}
+
+.cabecalho__nav_list_item-input {
+  position: relative;
+}
+
+.cabecalho__nav_list_input {
+  width: 100%;
+  height: 100%;
+  padding: 24px 20px;
+  box-sizing: border-box; /*não cresce para fora da borda*/
+  background-color: var(--cor-texto);
+  border-radius: 32px;
+  border: none;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: var(--fonte-texto);
+  color: var(--cor-links);
+}
+
+.pesquisa-icon {
+  position: absolute;
+  right: 17.5px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  pointer-events: none;
+}
