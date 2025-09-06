@@ -56,7 +56,7 @@
 @media screen and (max-width: 768px) {
   .cabecalho__nav_list {
     grid-template-areas: "logo sobre login perfil carrinho" "input input input input input";
-    grid-template-columns: 1fr 2fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr 2fr 0.5fr 0.5fr 0.5fr; /*espaçamento de cada coluna*/
   }
 
   .cabecalho__logo {
