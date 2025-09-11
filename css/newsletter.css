@@ -48,3 +48,50 @@
   display: flex;
   gap: 10px;
 }
+
+.newsletter__caixa-botao {
+  width: 145px;
+  height: 56px;
+  border-radius: 32px;
+  padding: 16px 24px;
+  background-color: #780bf7;
+  color: #ffff;
+  font-family: var(--fonte-texto);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .newsletter {
+    height: 342px;
+    padding: 40px 60px;
+  }
+
+  .newsletter__titulo {
+    font-size: 25px;
+  }
+
+  .newsletter p {
+    width: 648px;
+    font-size: 20px;
+  }
+
+  .newsletter__caixa {
+    display: block;
+  }
+
+  .newsletter__caixa-input {
+    width: 648px;
+    text-align: center;
+  }
+
+  .newsletter__caixa-input::placeholder {
+    width: 600px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
